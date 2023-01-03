@@ -8,14 +8,27 @@
 import SwiftUI
 
 struct ContentView: View {
+    let users = ["James","David","George"]
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+       
+            List (users, id: \.self){element in
+                HStack{
+                    Image("user")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 30,height: 30)
+                    Text(element).font(.title)
+                }.padding(2)
+              
+                
         }
-        .padding()
+        /*
+        List{
+            ForEach(users, id: \.self){
+                element in
+                Text(element)
+            }
+        }*/
     }
 }
 
