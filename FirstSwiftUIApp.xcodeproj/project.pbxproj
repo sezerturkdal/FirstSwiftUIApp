@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E5468A3C2965FFAD00EAC5BF /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5468A3B2965FFAD00EAC5BF /* SecondView.swift */; };
+		E5468A3E2966032600EAC5BF /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5468A3D2966032600EAC5BF /* ThirdView.swift */; };
 		E55284B02964B135000C815C /* FirstSwiftUIAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55284AF2964B135000C815C /* FirstSwiftUIAppApp.swift */; };
 		E55284B22964B135000C815C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55284B12964B135000C815C /* ContentView.swift */; };
 		E55284B42964B137000C815C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E55284B32964B137000C815C /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		E5468A3B2965FFAD00EAC5BF /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		E5468A3D2966032600EAC5BF /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
 		E55284AC2964B135000C815C /* FirstSwiftUIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstSwiftUIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E55284AF2964B135000C815C /* FirstSwiftUIAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstSwiftUIAppApp.swift; sourceTree = "<group>"; };
 		E55284B12964B135000C815C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 				E55284AF2964B135000C815C /* FirstSwiftUIAppApp.swift */,
 				E55284B12964B135000C815C /* ContentView.swift */,
 				E5468A3B2965FFAD00EAC5BF /* SecondView.swift */,
+				E5468A3D2966032600EAC5BF /* ThirdView.swift */,
 				E55284B32964B137000C815C /* Assets.xcassets */,
 				E55284B52964B137000C815C /* Preview Content */,
 			);
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5468A3E2966032600EAC5BF /* ThirdView.swift in Sources */,
 				E5468A3C2965FFAD00EAC5BF /* SecondView.swift in Sources */,
 				E55284B22964B135000C815C /* ContentView.swift in Sources */,
 				E55284B02964B135000C815C /* FirstSwiftUIAppApp.swift in Sources */,
